@@ -45,6 +45,10 @@ class ShowUser(BaseModel):
     contact : int
     role : str
 
+class LoginUser(BaseModel):
+    email: str
+    password: str
+
 
 # Report Schema
 class Report(BaseModel):
